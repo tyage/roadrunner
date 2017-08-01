@@ -24,18 +24,18 @@
      RoadRunner - un sistema per la generazione automatica di wrapper su sorgenti Web
      Copyright (C) 2003  Valter Crescenzi - crescenz@dia.uniroma3.it
 
-     Questo  programma �  software libero; �  lecito redistribuirlo  o
+     Questo  programma ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨  software libero; ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨  lecito redistribuirlo  o
      modificarlo secondo i termini della Licenza Pubblica Generica GNU
-     come � pubblicata dalla Free Software Foundation; o la versione 2
+     come ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨ pubblicata dalla Free Software Foundation; o la versione 2
      della licenza o (a propria scelta) una versione successiva.
 
-     Questo programma  � distribuito nella speranza che sia  utile, ma
+     Questo programma  ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¨ distribuito nella speranza che sia  utile, ma
      SENZA  ALCUNA GARANZIA;  senza neppure la  garanzia implicita  di
-     NEGOZIABILIT�  o di  APPLICABILIT� PER  UN PARTICOLARE  SCOPO. Si
+     NEGOZIABILITÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ  o di  APPLICABILITÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ PER  UN PARTICOLARE  SCOPO. Si
      veda la Licenza Pubblica Generica GNU per avere maggiori dettagli.
 
      Questo  programma deve  essere  distribuito assieme  ad una copia
-     della Licenza Pubblica Generica GNU; in caso contrario, se ne pu�
+     della Licenza Pubblica Generica GNU; in caso contrario, se ne puÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ²
      ottenere  una scrivendo  alla:
 
      Free  Software Foundation, Inc.,

@@ -24,18 +24,18 @@
      RoadRunner - un sistema per la generazione automatica di wrapper su sorgenti Web
      Copyright (C) 2003  Valter Crescenzi - crescenz@dia.uniroma3.it
 
-     Questo  programma è  software libero; è  lecito redistribuirlo  o
+     Questo  programma Ã¨  software libero; Ã¨  lecito redistribuirlo  o
      modificarlo secondo i termini della Licenza Pubblica Generica GNU
-     come è pubblicata dalla Free Software Foundation; o la versione 2
+     come Ã¨ pubblicata dalla Free Software Foundation; o la versione 2
      della licenza o (a propria scelta) una versione successiva.
 
-     Questo programma  è distribuito nella speranza che sia  utile, ma
+     Questo programma  Ã¨ distribuito nella speranza che sia  utile, ma
      SENZA  ALCUNA GARANZIA;  senza neppure la  garanzia implicita  di
-     NEGOZIABILITÀ  o di  APPLICABILITÀ PER  UN PARTICOLARE  SCOPO. Si
+     NEGOZIABILITÃ€  o di  APPLICABILITÃ€ PER  UN PARTICOLARE  SCOPO. Si
      veda la Licenza Pubblica Generica GNU per avere maggiori dettagli.
 
      Questo  programma deve  essere  distribuito assieme  ad una copia
-     della Licenza Pubblica Generica GNU; in caso contrario, se ne può
+     della Licenza Pubblica Generica GNU; in caso contrario, se ne puÃ²
      ottenere  una scrivendo  alla:
 
      Free  Software Foundation, Inc.,
@@ -87,7 +87,7 @@ abstract class addPlus extends SquareOperator implements Operator {
      * Come punto di backtracking prendere tutti quelli in cui la generalizzazione
      * dello square comporta un incremento del compress-ratio.
      * Quindi lo stato dell'allineamento deve ricordarsi dello square usato per
-     * la generalizzazione (e volendo anche l'estensione anche se questa si può
+     * la generalizzazione (e volendo anche l'estensione anche se questa si puÃ²
      * ricostruire). Si fa l'ipotesi che non possano esiste occorrenze di square
      * non collassate adiacenti al corrispondente square.
      */

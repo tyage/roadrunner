@@ -24,18 +24,18 @@
      RoadRunner - un sistema per la generazione automatica di wrapper su sorgenti Web
      Copyright (C) 2003  Valter Crescenzi - crescenz@dia.uniroma3.it
 
-     Questo  programma è  software libero; è  lecito redistribuirlo  o
+     Questo  programma Ã¨  software libero; Ã¨  lecito redistribuirlo  o
      modificarlo secondo i termini della Licenza Pubblica Generica GNU
-     come è pubblicata dalla Free Software Foundation; o la versione 2
+     come Ã¨ pubblicata dalla Free Software Foundation; o la versione 2
      della licenza o (a propria scelta) una versione successiva.
 
-     Questo programma  è distribuito nella speranza che sia  utile, ma
+     Questo programma  Ã¨ distribuito nella speranza che sia  utile, ma
      SENZA  ALCUNA GARANZIA;  senza neppure la  garanzia implicita  di
-     NEGOZIABILITÀ  o di  APPLICABILITÀ PER  UN PARTICOLARE  SCOPO. Si
+     NEGOZIABILITÃ€  o di  APPLICABILITÃ€ PER  UN PARTICOLARE  SCOPO. Si
      veda la Licenza Pubblica Generica GNU per avere maggiori dettagli.
 
      Questo  programma deve  essere  distribuito assieme  ad una copia
-     della Licenza Pubblica Generica GNU; in caso contrario, se ne può
+     della Licenza Pubblica Generica GNU; in caso contrario, se ne puÃ²
      ottenere  una scrivendo  alla:
 
      Free  Software Foundation, Inc.,
@@ -73,19 +73,19 @@ public class MDLEvaluator extends ParserListenerAdapter implements ParserListene
     /**
      * Note sulla codifica adottata
      *       - si suppone che (il sottoinsieme utilizzato del-) l'alfabeto sia noto al ricevitore
-     *       - il costo di codificare un Token è lg S se S è il numero di token utilizzati
+     *       - il costo di codificare un Token Ã¨ lg S se S Ã¨ il numero di token utilizzati
      *       - gli altri nodi non foglia (Plus, Hook, Variant, Subtree) sono visti come token aggiunti
      *       - al costo di un Token di tipo testo va aggiunto il costo di codificare la stringa
-     *       - la profondità dei tag è un'informazione ridondante e non codificata
+     *       - la profonditÃ  dei tag Ã¨ un'informazione ridondante e non codificata
      *       - gli And sono ridondanti e non codificati esplicitamente
      *       - si suppone che i caratteri di testo siano codificati come codice ASCII ad 8 bit
-     *       - il costo di codificare un numero N>0 in uno stream è pari a 2[lg(N)+1], 1 se N=0
+     *       - il costo di codificare un numero N>0 in uno stream Ã¨ pari a 2[lg(N)+1], 1 se N=0
      *
      * Sullo schema:
-     *  si codificano i nodi seguiti (laddove necessario) dal numero di figli, e così via ricorsivamente
+     *  si codificano i nodi seguiti (laddove necessario) dal numero di figli, e cosÃ¬ via ricorsivamente
      * Sull'istanza:
      *  si codifica ciascuna istanza specificando quante volte istanziare tutti i punti di scelta
-     *  (0 od 1 per gli Hook, 1 o più per i Plus, una stringa per i Variant, tutto per i Subtree).
+     *  (0 od 1 per gli Hook, 1 o piÃ¹ per i Plus, una stringa per i Variant, tutto per i Subtree).
      *  Attualmente per i subtree si codica il numero di token del subtree e tutti i token, presi singolarmente
      */
     
