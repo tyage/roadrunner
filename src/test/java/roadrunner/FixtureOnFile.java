@@ -61,13 +61,13 @@ import roadrunner.util.Util;
 public class FixtureOnFile {
     
     static {
-        System.setProperty("rr.home", "/home/crescenz/TheRRProject/RoadRunner");
+        System.setProperty("rr.home", ".");
     }
     
-    public final static String wrappersDir = "src/test/fix/wrappers/";
-    public final static String samplesDir  = "src/test/fix/samples/";
-    public final static String basicDir    = "src/test/fix/basic/";
-    public final static String prefsDir    = "src/test/fix/preferences/";
+    public final static String wrappersDir = "src/test/java/fix/wrappers/";
+    public final static String samplesDir  = "src/test/java/fix/samples/";
+    public final static String basicDir    = "src/test/java/fix/basic/";
+    public final static String prefsDir    = "src/test/java/fix/preferences/";
         
     static public File getWrapperFile(String name) throws FileNotFoundException {
         return Util.searchInRRHOME(wrappersDir+name);
