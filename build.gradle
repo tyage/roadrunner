@@ -48,6 +48,9 @@ apply plugin: 'application'
 
 mainClassName = 'roadrunner.Shell'
 
+tasks.withType(JavaExec) {
+    systemProperties System.properties
+}
 run {
     if (project.hasProperty('args')) {
         args project.args.split('\\s+')
